@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/events.css">
+    <title>Newmarket Neighbourhood Spotlight</title>
+</head>
+<body>
+    <header>
+        <h1>Newmarket Neighbourhood Events</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="neighbourhoods.html">Neighbourhoods</a></li>
+                <li><a href="businesses.html">Businesses</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="map.html" class="active">Map</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="events-page">
+        <section id="event-filters">
+            <h2>Filter Events</h2>
+            <div class="filters">
+                <label for="filter-date">Date:</label>
+                <input type="date" id="filter-date">
+
+                <label for="filter-neighbourhood">Neighbourhood:</label>
+                <select id="filter-neighbourhood">
+                    </select>
+
+                <label for="filter-category">Category:</label>
+                <select id="filter-category">
+                    </select>
+
+                <button id="apply-filters">Apply Filters</button>
+            </div>
+        </section>
+
+        <section id="event-calendar">
+            <h2>Upcoming Events</h2>
+            <div id="event-list">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Newmarket Neighbourhood Spotlight</p>
+    </footer>
+
+    <script src="js/events.js"></script>
+</body>
+</html>

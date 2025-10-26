@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+    <title>Neighbourhood Details</title>
+</head>
+<body>
+    <header>
+        <h1>Newmarket Neighbourhood Detail Page</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="neighbourhoods.html">Neighbourhoods</a></li>
+                <li><a href="businesses.html">Businesses</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="neighbourhood-detail">
+
+        <section id="neighbourhood-overview">
+            <h2 id="neighbourhood-name"></h2>
+            <p id="neighbourhood-description"></p>
+            <h3>Landmarks</h3>
+            <ul id="neighbourhood-landmarks"></ul>
+        </section>
+
+        <section id="neighbourhood-map">
+            <h3>Neighbourhood Map</h3>
+            <div id="neighbourhood-map-container"></div>
+        </section>
+
+        <section id="local-businesses">
+            <h3>Local Businesses in This Neighbourhood</h3>
+            <ul id="neighbourhood-businesses-list">
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Newmarket Neighbourhood Spotlight</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="js/neighbourhood-detail.js"></script>
+</body>
+</html>

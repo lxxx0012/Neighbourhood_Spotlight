@@ -1,0 +1,152 @@
+[
+    {
+        "id": "downtown-newmarket",
+        "name": "Downtown Newmarket",
+        "description": "The historic heart of Newmarket, known for its charming Main Street, unique shops, and cultural events.",
+        "landmarks": [
+            {"name": "Old Town Hall", "url": "https://www.newmarket.ca/oldtownhall"}, 
+            {"name": "Riverwalk Commons", "url": "https://www.newmarket.ca/RiverwalkCommons"}, 
+            {"name": "NewRoad Performance Arts Centre", "url": "https://www.newmarket.ca/theatre"}
+        ],
+        "latitude": 44.0528,
+        "longitude": -79.4674
+    },
+    {
+        "id": "armitage",
+        "name": "Armitage",
+        "description": "A mature residential area with beautiful parks and established schools.",
+        "landmarks": [
+            {"name": "Armitage Gardens", "url": "https://www.york.ca/support/housing/housing-locations/armitage-gardens"}
+        ],
+        "latitude": 44.0200,
+        "longitude": -79.2833
+    },
+    {
+        "id": "glenway-estate",
+        "name": "Glenway Estate",
+        "description": "A Well-established community with a mix of housing styles.",
+        "landmarks": [
+            {"name": "The historic Quakers Meeting House", "url": "https://cfha.info/2021/03/our-enduring-heritage-yonge-street-friends-burial-ground-newmarket-ontario/"}, 
+            {"name": "Newmarket Courthouse", "url": "https://www.ontario.ca/locations/courts/1013-newmarket-50-eagle-st-w"},
+            {"name": "York Region Administrative Centre", "url": "https://www.york.ca/newsroom/campaigns-projects/save-water"}
+        ],
+        "latitude": 44.0592,
+        "longitude": -79.4613
+    },
+    {
+        "id": "woodland-hill",
+        "name": "Woodland Hill",
+        "description": "Known for its newer developments and family-friendly atmosphere.",
+        "landmarks": [
+            {"name": "Upper Canada Mall", "url": "https://uppercanadamall.com/"}
+        ],
+        "latitude": 44.0592,
+        "longitude": -79.4613
+    },
+    {
+        "id": "central-newmarket",
+        "name": "Central Newmarket",
+        "description": "The heart of the town, featuring historic homes and vibrant local businesses.",
+        "landmarks": [
+            {"name": "Main Street Newmarket", "url": "https://newmarketmainstreet.com/"}, 
+            {"name": "Fairy Lake Park", "url": "https://www.enjoyontario.ca/fairy-lake/"}
+        ],
+        "latitude": 44.0300,
+        "longitude": -79.2758
+    },
+    {
+        "id": "summerhill-estate",
+        "name": "Summerhill Estate",
+        "description": "Offers spacious homes and plenty of green space",
+        "landmarks": [
+            {"name": "John F. Smith Trail", "url": "l"},
+            {"name": "Ray Twinney Recreation Complex", "url": "https://www.newmarket.ca/LivingHere/Pages/Newmarket%20Facilities%20and%20Buildings/Ray-Twinney-Recreation-Complex.aspx"}
+        ],
+        "latitude": 44.0592,
+        "longitude": -79.4613
+    },
+    {
+        "id": "huron-heights",
+        "name": "Huron Heights",
+        "description": "A diverse neighbourhood with a mix of residential and commercial areas.",
+        "landmarks": [
+            {"name": "George Richardson Park", "url": "https://www.ontariotrails.on.ca/trail/george-richardson-park-trail"}, 
+            {"name": "East Holland River Watershed", "url": "https://auroraarboretum.ca/explore/river-ponds/"},
+            {"name": "Hollingsworth Civic Arena", "url": "https://nmha.ca/Venues/5/"}
+        ],
+        "latitude": 44.0330,
+        "longitude": -79.2625
+    },
+    {
+        "id": "bristol-london",
+        "name": "Bristol-London",
+        "description": "A well-connected area with access to parks and shopping.",
+        "landmarks": [
+            {"name": "Proctor Park", "url": "https://ontarioconservationareas.ca/conservation-areas/proctor-park/"},
+            {"name": "Denne Bush", "url": "https://www.alltrails.com/trail/canada/ontario/denne-bush-trail"}
+        ],
+        "latitude": 44.0666,
+        "longitude": -79.4720
+    },
+    {
+        "id": "leslie-valley",
+        "name": "Leslie Valley",
+        "description": "A residential neighbourhood with a mix of housing options.",
+        "landmarks": [
+            {"name": "Leslie Valley Park", "url": "https://www.facebook.com/groups/190247914885254/"}
+        ],
+        "latitude": 44.0592,
+        "longitude": -79.4613
+    },
+    {
+        "id": "stonehaven-wyndham",
+        "name": "Stonehaven-Wyndham",
+        "description": "A newer community with modern amenities and family-friendly environments.",
+        "landmarks": [
+            {"name": "Magna Community Centre", "url": "https://www.newmarket.ca/livinghere/pages/newmarket%20facilities%20and%20buildings/magna-centre.aspx"}
+        ],
+        "latitude": 44.0528,
+        "longitude": -79.4674
+    },
+    {
+        "id": "aurora",
+        "name": "Aurora",
+        "description": "A historic town with a rich past and birbrant community.",
+        "landmarks": [
+            {"name": "Aurora Cultural Centre", "url": "auroraculturalcentre.ca"}
+        ],
+        "latitude": 44.0345,
+        "longitude": -79.4339
+    },
+    {
+        "id": "newmarket-industrial-park",
+        "name": "Newmarket Industrial Park",
+        "description": "A key business hub and is designated as 'Employment Lands' and is home to various businesses, warehouses, and mnufacturing facilities. ",
+        "landmarks": [
+            {"name": "National Training Rinks", "url": "https://ntrcanada.com/newmarket/"}
+        ],
+        "latitude": 44.0592,
+        "longitude": -79.4613
+    },
+    {
+        "id": "east-gwillimbury",
+        "name": "East Gwillimbury",
+        "description": "A growing town offering a mixed of charm and modern development, scenic landscape and conservation areas.",
+        "landmarks": [
+            {"name": "Sharon Temple", "url": "https://www.sharonmuseumandgardens.ca/"},
+            {"name": "Holland Landing Conservation Area", "url": "https://www.ontarioparks.ca/park/hollandlandingprairie"}
+        ],
+        "latitude": 44.1200,
+        "longitude": -79.4300
+    },
+    {
+        "id": "gorham-college-manor",
+        "name": "Gorham-College Manor",
+        "description": "Many of the streets in this neighbourhood end in cul-de-sacs or back up to the ravine",
+        "landmarks": [
+            {"name": "College Manor Park", "url": "https://www.mypacer.com/parks/169344/college-manor-park-newmarket"},
+            {"name": "Gorman Pool", "url": "https://www.newmarket.ca/swimming"},
+            {"name": "York Curling Club", "url": "https://yorkcurlingclub.ca/"}
+        ]
+    }
+  ]

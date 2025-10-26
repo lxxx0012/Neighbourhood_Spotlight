@@ -1,0 +1,202 @@
+[
+    {
+        "id": "event-1",
+        "name": "Newmarket Farmers' Market",
+        "date": "2025-05-11",
+        "time": "8:00 - 13:00",
+        "neighbourhoodId": "downtown-newmarket",
+        "category": "Market",
+        "description": "Fresh produce, local crafts, and more!",
+        "location": "Riverwalk Commons"
+    },
+    {
+        "id": "event-2",
+        "name": "Armitage Village Spring Fair",
+        "date": "2025-05-18",
+        "time": "10:00 - 16:00",
+        "neighbourhoodId": "armitage",
+        "category": "Fair",
+        "description": "Family fun, games, and local vendors.",
+        "location": "Armitage Park"
+    },
+    {
+        "id": "event-3",
+        "name": "Live Music at the Brewery",
+        "date": "2025-05-24",
+        "time": "20:00 - 23:00",
+        "neighbourhoodId": "woodland-hill",
+        "category": "Music",
+        "description": "Enjoy local bands at the Newmarket Brewery.",
+        "location": "Newmarket Brewery"
+    },
+    {
+        "id": "event-4",
+        "name": "Downtown Newmarket Art Walk",
+        "date": "2025-06-01",
+        "time": "11:00 - 17:00",
+        "neighbourhoodId": "downtown-newmarket",
+        "category": "Arts",
+        "description": "Stroll through downtown and see local artists' work.",
+        "location": "Main Street Newmarket"
+    },
+    {
+        "id": "event-5",
+        "name": "Main Street Festival",
+        "date": "2025-06-25",
+        "time": "10:00 - 18:00",
+        "neighbourhoodId": "central-newmarket",
+        "category": "Community",
+        "description": "A lively event featuring local vendors, live music, and food trucks.",
+        "location": "Main Street Newmarket"
+    },
+    {
+        "id": "event-6",
+        "name": "Upper Canada Mall Fashion Show",
+        "date": "2025-07-20",
+        "time": "14:00 - 17:00",
+        "neighbourhoodId": "woodland-hill",
+        "category": "Shopping",
+        "description": "Showcasing the latest trends from local retailers.",
+        "location": "Upper Canada Mall"
+    },
+    {
+        "id": "event-7",
+        "name": "Magna Centre Sports Day",
+        "date": "2025-08-10",
+        "time": "09:00 - 16:00",
+        "neighbourhoodId": "stonehaven-wyndham",
+        "category": "Sport",
+        "description": "A day of friendly competitions in hockey, swimming, and fitness challenges.",
+        "location": "Magna Centre"
+    },
+    {
+        "id": "event-8",
+        "name": "Rocket Fireworks Night",
+        "date": "2025-07-01",
+        "time": "20:00 - 22:00",
+        "neighbourhoodId": "bristol-london",
+        "category": "Celebration",
+        "description": "A dazzling fireworks display for families.",
+        "location": "Bristol-London Park"
+    },
+    {
+        "id": "event-9",
+        "name": "Summer Hill Music in the Park",
+        "date": "2025-08-25",
+        "time": "18:00 - 21:00",
+        "neighbourhoodId": "summerhill-estate",
+        "category": "Music",
+        "description": "Live performances from local musicians.",
+        "location": "Summerhill Park"
+    },
+    {
+        "id": "event-10",
+        "name": "Huron Heights Farmers' Market",
+        "date": "Every Saturday",
+        "time": "09:00 - 13:00",
+        "neighbourhoodId": "huron-heights",
+        "category": "Market",
+        "description": "Fresh produce and handmade goods from local vendors.",
+        "location": "Huron Heights Park"
+    },
+    {
+        "id": "event-11",
+        "name": "Leslie Valley Nautre Walk",
+        "date": "2025-09-05",
+        "time": "10:00 - 12:00",
+        "neighbourhoodId": "leslie-valley",
+        "category": "Outdoor",
+        "description": "Guided tours exploring local wildlife and trails.",
+        "location": "Leslie Valley Park"
+    },
+    {
+        "id": "event-12",
+        "name": "Business Networking Mixer",
+        "date": "2025-10-12",
+        "time": "17:00 - 20:00",
+        "neighbourhoodId": "newmarket-industrial-park",
+        "category": "Business",
+        "description": "A gathering for entrepreneurs and professionals.",
+        "location": "Newmarket Business Centre"
+    },
+    {
+        "id": "event-13",
+        "name": "Fairy Lake Outdoor Move Night",
+        "date": "2025-07-12",
+        "time": "20:30 - 23:00",
+        "neighbourhoodId": "central-newmarket",
+        "category": "Entertainment",
+        "description": "A family-friendly outdoor movie screening at Fairy Lake Park.",
+        "location": "Fairy Lake"
+    },
+    {
+        "id": "event-14",
+        "name": "Woodland Hill Summer Carnival",
+        "date": "2025-08-03",
+        "time": "12:00 - 18:00",
+        "neighbourhoodId": "woodland-hill",
+        "category": "Community",
+        "description": "A fun-filled day with rides, games, and foodstalls",
+        "location": "Woodland Hill Plaza"
+    },
+    {
+        "id": "event-15",
+        "name": "Stonehaven Wyndham Charity Run",
+        "date": "2025-09-14",
+        "time": "09:00 - 12:00",
+        "neighbourhoodId": "Stonehaven-Wyndham",
+        "category": "Sports",
+        "description": "A 5K charity run supporing local causes.",
+        "location": "Magna Centre"
+    },
+    {
+        "id": "event-16",
+        "name": "Bristol-London Night Market",
+        "date": "2025-06-28",
+        "time": "18:00 - 22:00",
+        "neighbourhoodId": "Bristol-London",
+        "category": "Shopping",
+        "description": "A vibrant market featuring local artisans, food vendors, and live music.",
+        "location": "Bristol-London Park"
+    },
+    {
+        "id": "event-17",
+        "name": "Summer Hill Estates Garden Festival",
+        "date": "2025-07-20",
+        "time": "10:00 - 16:00",
+        "neighbourhoodId": "Summerhill Estate",
+        "category": "Outdoor",
+        "description": "A showcase of beautiful gardens, workshops, and paint sales.",
+        "location": "Summerhill Park"
+    },
+    {
+        "id": "event-18",
+        "name": "Huron Heights Music Jam",
+        "date": "2025-08-07",
+        "time": "17:00 - 21:00",
+        "neighbourhoodId": "huron-heights",
+        "category": "Music",
+        "description": "A live music event featuring local bands and artists",
+        "location": "Huron Heights Park"
+    },
+    {
+        "id": "event-19",
+        "name": "Leslie Valley Family Picnic",
+        "date": "2025-09-07",
+        "time": "11:00 - 15:00",
+        "neighbourhoodId": "leslie-valley",
+        "category": "Community",
+        "description": "A relaxing day with food, games, and activiies for all ages.",
+        "location": "Leslie Valley Park"
+    },
+    {
+        "id": "event-20",
+        "name": "Newmaket Industrial Park Business Expo",
+        "date": "2025-10-05",
+        "time": "10:00 - 16:00",
+        "neighbourhoodId": "newmarket-industrial-park",
+        "category": "Business",
+        "description": "A networking event shocasing local business.",
+        "location": "Newmarket Business Centre"
+    }
+]

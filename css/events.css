@@ -1,0 +1,191 @@
+/* css/events.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* More professional font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header */
+header {
+    background-color: #37474f; /* Darker, more modern header background */
+    color: #eceff1; /* Lighter text for better contrast */
+    padding: 1.5em 20px; /* Increased padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #039be5; /* Accent color */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Slightly larger and more prominent */
+    font-weight: 400; /* Lighter font weight */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a { /* Targeting the 'a' tag directly for styling */
+    color: #eceff1;
+    text-decoration: none;
+    padding: 0.7em 1.2em; /* Increased padding */
+    border-radius: 8px; /* More rounded buttons */
+    transition: background-color 0.3s ease-in-out; /* Smoother transition */
+}
+
+nav ul li a:hover {
+    background-color: #546e7a; /* Slightly lighter hover color */
+}
+
+/* Events */
+#events-page {
+    padding: 30px 20px;
+}
+
+#event-filters {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+}
+
+#event-filters h2 {
+    color: #1976d2;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+#event-filters .filters {
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* Adjust based on desired layout */
+    gap: 15px;
+    align-items: center;
+}
+
+#event-filters label {
+    font-weight: bold;
+    color: #37474f;
+}
+
+#event-filters input[type="date"],
+#event-filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#event-filters select {
+    appearance: none; /* Remove default arrow */
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg fill="%2337474f" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1em;
+    padding-right: 30px; /* Make space for the arrow */
+}
+
+#event-filters button#apply-filters {
+    background-color: #1976d2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#event-filters button#apply-filters:hover {
+    background-color: #0d47a1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+#event-calendar h2 {
+    color: #1976d2;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+#event-calendar #event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+    border: 1px solid #eee;
+}
+
+.event-card h3 {
+    color: #1976d2;
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.event-card .event-date,
+.event-card .event-time,
+.event-card .event-neighbourhood,
+.event-card .event-category,
+.event-card .event-location {
+    color: #546e7a;
+    margin-bottom: 0.5em;
+    font-size: 0.95em;
+}
+
+.event-card .event-description {
+    color: #424242;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5em 0; /* Increased padding */
+    background-color: #37474f; /* Darker footer */
+    color: #eceff1; /* Lighter text */
+    position: static; /* Adjusted to static for better flow */
+    width: 100%;
+    margin-top: 30px; /* Add some space above the footer */
+    border-top: 3px solid #039be5; /* Accent border */
+}
+
+/* Responsive adjustments for event filters */
+@media (max-width: 768px) {
+    #event-filters .filters {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 576px) {
+    #event-filters .filters {
+        grid-template-columns: auto;
+    }
+}
+
+/* Responsive adjustments for event list */
+@media (max-width: 600px) {
+    #event-calendar #event-list {
+        grid-template-columns: 1fr;
+    }
+}

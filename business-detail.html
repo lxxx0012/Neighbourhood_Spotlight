@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+    <title>Newmarket Business Detail</title>
+</head>
+<body>
+    <header>
+        <h1>Newmarket Businesss Directory</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="neighbourhoods.html">Neighbourhoods</a></li>
+                <li><a href="busineses.html">Businesses</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="business-detail">
+        <section id="business-overview">
+            <h2 id="business-name"></h2>
+            <p id="business-category" class="category"></p>
+            <p id="business-neighbourhood" class="neighbourhood"></p>
+            <p id="business-address"></p>
+            <p id="business-contact"></p>
+            <p id="business-website"></p>
+            <p id="business-description"></p>
+            </section>
+
+        <section id="business-location">
+            <h3>Location</h3>
+            <div id="business-map-container"></div>
+            <p id="business-address"></p>
+        </section>
+
+        <section id="image-gallery">
+            <h3>Gallery</h3>
+            <div class="gallery-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Newmarket Neighbourhood Spotlight</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    <script src="js/business-detail.js"></script>
+</body>
+</html>
